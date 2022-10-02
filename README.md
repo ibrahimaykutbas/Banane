@@ -2,7 +2,7 @@
 
 <img src="images/ss.png" height="500"> <img src="images/ss1.png" height="500"> <img src="images/ss2.png" height="500"> <img src="images/ss3.png" height="500"> <img src="images/ss4.png" height="500">
 
-## Kurulum
+## Teknoloji
 
 React Native
 
@@ -23,7 +23,7 @@ React Native
 - Paylaşılan yazıların listelenmesi.
 - Paylaşılan yazılara tatlı bir olumsuzluk olarak 'Bana ne?' butonu ile etkileşime girebilmek.
 
-## Başlangıç
+## Kurulum
 
 Bu depoyu yerel makinenizde klonlayın.
 
@@ -31,31 +31,38 @@ Bu depoyu yerel makinenizde klonlayın.
 git clone https://github.com/ibrahimaykutbas/Banane.git
 ```
 
-### Kullanım
+### Hazırlık
 
-Projeyi klonladıktan sonra kullanmak için:
+Projeyi klonladıktan sonra ilgili dizine gidin.
 
 ```
 cd Banane
-cd .
+code .
 ```
-
-Proje bağımlılıklarını yüklemek için proje klasörüne aşağıdaki komutları çalıştırın.
+Proje bağımlılıklarını yüklemek için proje dizininde aşağıdaki komutları çalıştırın.
 
 ```
-npm init
 npm install
 ```
 
-Bu talimatlar, geliştirme ve test amacıyla yerel makinenizde projenin bir kopyasını hazır ve çalışır hale getirecektir.
+Eğer macOS kullanıyorsanız ve iOS işletim sistemine sahip bir cihazda projeyi başlatacaksanız pod'ları yükleyin.
 
-## Kullanılabilir Komut Dosyaları
+```
+cd ios
+pod install
+```
 
-Proje dizininde şunları çalıştırabilirsiniz:
+### Kullanım
+
+Projeyi başlatmak için aşağıdaki komutları kullanın.
 
 ```
 npx react-native run-android
+--or--
+npx react-native run-ios
 ```
+
+Bu talimatlar, geliştirme ve test amacıyla yerel makinenizde projenin bir kopyasını hazır ve çalışır hale getirecektir.
 
 ## Daha Fazla Bilgi İçin
 
